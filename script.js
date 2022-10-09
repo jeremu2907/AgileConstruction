@@ -13,6 +13,6 @@ function clickProject(){
     document.getElementById("project").scrollIntoView({behavior: "smooth"})
 }
 
-function clickAbout(){
-    document.getElementById("about").scrollIntoView({behavior: "smooth"})
+function clickContact(){
+    document.getElementById("contact").scrollIntoView({behavior: "smooth"})
 }
