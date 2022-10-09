@@ -35,10 +35,10 @@ body{
     transform: translate(-50%, -50%);
     justify-content: center;
     width: auto;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
     padding: 50px;
     border: 2px var(--light) solid;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.8);
 }
 
 .title{
