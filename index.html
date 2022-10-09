@@ -4,6 +4,9 @@
         <title>Agile Construction</title>
         <link rel="stylesheet" href="./styles.css">
         <link rel="icon" type="image/x-icon" href="./BWLogoIcon.jpeg">
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+        <script type='text/javascript' src='./jquery-mousewheel-3.1.13\jquery-mousewheel-3.1.13\jquery.mousewheel.min.js'></script>
+        <script type="text/javascript" src="./script.js"></script>
     </head>
 
     <body>
@@ -15,15 +18,47 @@
                 <div class = "titleBar">
                     <div class = "title">Agile Construction</div>
                     <div class = "bar">
-                        <button class = "goto">About Us</button>
-                        <button class = "goto">Our Projects</button>
-                        <button class = "goto">Some Stuff</button>
-                        <button class = "goto">Contact Us</button>
+                        <button class = "goto" onclick="clickAbout()">About Us</button>
+                        <button class = "goto" onclick="clickProject()">Our Projects</button>
+                        <!-- <button class = "goto" onclick="clickWelcome()">Some Stuff</button> -->
+                        <button class = "goto" onclick="clickWelcome()">Contact Us</button>
                     </div>
                 </div>
-                <!-- <img alt="feature" src="213048982_136851751860668_1391250672340423313_n.jpg" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%)"> -->
             </div>
-            
+        </section>
+
+        <section>
+            <div id="about" class = "aboutPage">
+                <div class = "aboutContainer">
+                    <div class = "aboutBox">
+                        <h1>About Us</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in sodales tellus. Quisque eu augue eget ex dapibus elementum. Quisque pharetra accumsan lacus a ultrices. Morbi eu bibendum sapien, quis sodales nibh. Donec condimentum blandit purus quis dapibus. Aliquam erat volutpat. Suspendisse nec dolor quam. Aliquam eu lacus massa. Proin venenatis magna eu lobortis sagittis. Etiam a luctus libero. Morbi elementum commodo diam. Vivamus at orci malesuada, egestas augue pharetra, semper dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+                    <div class = "aboutBox">
+                        <h1>Our Team</h1>
+                        <p>Nunc vitae massa rhoncus, varius diam sit amet, laoreet diam. Integer id nisi a metus egestas tempus ac dictum arcu. Vivamus non varius dui. Aliquam auctor egestas orci, congue dictum arcu consequat ut. Pellentesque et lacinia velit. Phasellus a laoreet diam. Phasellus id iaculis mi. Aliquam tempus ornare justo, et ornare enim lacinia quis. Praesent tristique enim nec molestie accumsan. Vestibulum at quam at urna mattis dapibus sit amet vel ipsum. Donec leo turpis, tincidunt in porttitor vitae, tempus a tortor. Pellentesque aliquam ex erat, at posuere dolor faucibus accumsan. Curabitur mi ligula, porta sed augue sed, ornare lacinia ipsum. Pellentesque eu faucibus dui. Quisque sit amet metus pharetra, commodo nisi ut, sollicitudin libero. In feugiat odio eu nunc faucibus fermentum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="project" class = "projectPage">
+                <h1>Featured Projects and Highlights</h1>
+                <div class = "featureContainer">
+                    <div id="slide" class = "slide">
+                        <img src="./275733462_284343423778166_3525976417585391731_n.jpg" style="height: 100%;width: auto;">
+                        <img src="./213048982_136851751860668_1391250672340423313_n.png" style="height: 100%;width: auto;">
+                        <img src="./272985544_261396566072852_7517669745430307429_n.jpg" style="height: 100%;width: auto;">
+                        <img src="./275741486_284343473778161_1418520567836680360_n.jpg" style="height: 100%;width: auto;">
+                        <!-- <img src=""> -->
+                    </div>
+                    <div class="ourPromise">
+                        <h1>Our Promise</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in sodales tellus. Quisque eu augue eget ex dapibus elementum. Quisque pharetra accumsan lacus a ultrices. Morbi eu bibendum sapien, quis sodales nibh. Donec condimentum blandit purus quis dapibus. Aliquam erat volutpat. Suspendisse nec dolor quam. Aliquam eu lacus massa. Proin venenatis magna eu lobortis sagittis. Etiam a luctus libero. Morbi elementum commodo diam. Vivamus at orci malesuada, egestas augue pharetra, semper dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </body>
 </html>
