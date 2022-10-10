@@ -27,9 +27,12 @@ body{
     background-image: url("./photo-1600585154340-be6161a56a0c.jfif");
     background-attachment: fixed;
     /* background-size: cover; */
+    background-position: center center;
+    /* background-size: 100% auto; */
+
     background-size: 100vw auto;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
 }
 
 .logo{
