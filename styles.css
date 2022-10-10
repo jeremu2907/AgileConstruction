@@ -27,7 +27,7 @@ body{
     background-image: url("./photo-1600585154340-be6161a56a0c.jfif"), url("./white-triangle-pattern-seamless-background-2.jpg");
     background-attachment: fixed;
     /* background-size: cover; */
-    background-position: center center;
+    background-position: center top;
     /* background-size: 100% auto; */
 
     background-size: 100vw auto;
