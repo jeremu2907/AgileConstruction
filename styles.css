@@ -8,6 +8,11 @@
 body{
     margin: 0;
     overflow-x:hidden;
+    background-image: url("./275733462_284343423778166_3525976417585391731_n.jpg");
+    background-position: center top;
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 *::-webkit-scrollbar{
@@ -23,16 +28,14 @@ body{
 .landingPage{
     height: 100vh;
     width: 100vw;
-    background-color: var(--dark);
+    background-color: rgba(0,0,0,0.8);
+    /* background-color: var(--dark);
     background-image: url("./photo-1600585154340-be6161a56a0c.jfif"), url("./white-triangle-pattern-seamless-background-2.jpg");
     background-attachment: fixed;
-    /* background-size: cover; */
+    
     background-position: center top;
-    /* background-size: 100% auto; */
-
     background-size: auto 100vh;
-    background-repeat: no-repeat;
-    /* background-position: center; */
+    background-repeat: no-repeat; */
 }
 
 .logo{
@@ -52,7 +55,7 @@ body{
     backdrop-filter: blur(3px);
     padding: 50px;
     border: 2px var(--light) solid;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.4);
 }
 
 .title{
@@ -60,6 +63,7 @@ body{
     color: var(--light);
     font-size: 100px;
     font-family: 'Playfair Display', serif;
+    width:max-content
 }
 
 .bar{
@@ -94,10 +98,11 @@ body{
 }
 
 .aboutPage{
-    background-image: url("./275733462_284343423778166_3525976417585391731_n.jpg");
-    background-size: cover;
+    /* background-image: url("./275733462_284343423778166_3525976417585391731_n.jpg"); */
+    /* background-position: center top;
+    background-size: auto 100vh;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     height: 100vh;
     width: 100vw;
 }
@@ -116,6 +121,7 @@ body{
     position: relative;
     border: 2px var(--light) solid;
     backdrop-filter: blur(3px);
+    background-color: rgba(0,0,0,0.4);
     height: 700px;
     width: 500px;
 }
@@ -146,6 +152,10 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+
+    /* background-position: center top;
+    background-size: auto 100vh;
+    background-repeat: no-repeat; */
 }
 
 .projectPage h1{
@@ -224,6 +234,9 @@ body{
     justify-content: space-evenly;
     align-items: center;
     background-image: url("./white-triangle-pattern-seamless-background-2.jpg");
+    /* background-position: center top;
+    background-size: auto 100vh;
+    background-repeat: no-repeat; */
 }
 
 .contact a, h1{
