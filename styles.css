@@ -10,9 +10,10 @@ body{
     overflow-x:hidden;
     background-image: url("./275733462_284343423778166_3525976417585391731_n.jpg");
     background-position: center center;
-    background-size: 100vw 100vw;
+    background-size: auto 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: var(--dark);
 }
 
 *::-webkit-scrollbar{
