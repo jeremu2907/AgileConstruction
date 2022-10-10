@@ -27,7 +27,7 @@ body{
     background-image: url("./photo-1600585154340-be6161a56a0c.jfif");
     background-attachment: fixed;
     /* background-size: cover; */
-    background-size: 100vw 100vh;
+    background-size: auto 100vh;
     background-repeat: no-repeat;
     background-position: bottom;
 }
