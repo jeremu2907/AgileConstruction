@@ -203,6 +203,7 @@ body{
     height: 100%;
     border: 2px var(--light) solid;
     background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(3px);
     align-self: flex-start;
     overflow-y: auto;
 }
