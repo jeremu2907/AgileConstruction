@@ -5,8 +5,7 @@
         <link rel="stylesheet" href="./styles.css">
         <link rel="icon" type="image/x-icon" href="./TransparentPhotocp.png">
         <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
-        <script type='text/javascript' src='./jquery-mousewheel-3.1.13\jquery-mousewheel-3.1.13\jquery.mousewheel.min.js'></script>
-        <script type="text/javascript" src="./script.js"></script>
+        <script type="text/javascript" src="./script.js" defer></script>
     </head>
 
     <body>
@@ -44,14 +43,12 @@
 
         <section>
             <div id="project" class = "projectPage">
-                <h1>Featured <r style="color:var(--gold); text-decoration: underline;">Projects</r> and Highlights</h1>
+                <h1>Featured <r style="color:var(--gold); text-decoration: underline;">Projects</r></h1>
                 <div class = "featureContainer">
-                    <div id="slide" class = "slide">
-                        <img src="./275733462_284343423778166_3525976417585391731_n.jpg" >
-                        <img src="./213048982_136851751860668_1391250672340423313_n.png" >
-                        <img src="./272985544_261396566072852_7517669745430307429_n.jpg" >
-                        <img src="./275741486_284343473778161_1418520567836680360_n.jpg" >
-                        <!-- <img src=""> -->
+                    <div class = "slide">
+                        <div style="position:relative; width: 5%; color: white; text-align: center; font-size: 50px;" onclick="moveLeft(); clearInterval(autoGallery)">&#706;</div>
+                        <div style="position:relative; width: 90%"id="works"></div>
+                        <div style="position:relative; width: 5%; color: white; text-align: center; font-size: 50px;" onclick="moveRight(); clearInterval(autoGallery)">&#707;</div>
                     </div>
                     <div class="ourPromise">
                         <h1>Our Promise</h1>
